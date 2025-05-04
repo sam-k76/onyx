@@ -1,0 +1,54 @@
+/* Form Section Styles */
+.form-section {
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #E7CD78;
+  margin-bottom: 20px;
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.form-row input {
+  padding: 15px;
+  margin: 5px;
+  width: 48%; /* Adjust to fit in row */
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fff;
+  color: #000;
+}
+
+button {
+  padding: 15px 30px;
+  background-color: #E7CD78;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #bfa432;
+}
