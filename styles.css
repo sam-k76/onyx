@@ -1,0 +1,93 @@
+
+section {
+  width: 100%;
+  display: block;
+  padding: 60px 0;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: url("images/luxury-car.jpg") center center/cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: black;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-family: 'Bebas Neue', sans-serif;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+}
+
+.gold-section {
+  width: 100%;
+  background-color: #E7CD78;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 5%;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 3rem;
+}
+
+.gold-section span {
+  width: 40%;
+  text-align: center;
+}
+
+.slogan-bar {
+  width: 100%;
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.membership {
+  width: 100%;
+  background-color: #E7CD78;
+  color: black;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.membership h2 {
+  font-size: 2.5rem;
+  font-family: 'Bebas Neue', sans-serif;
+  margin-bottom: 30px;
+}
+
+.membership-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  justify-content: center;
+  list-style-type: disc;
+  padding-left: 40px;
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+.membership-list li {
+  font-size: 1.2rem;
+}
