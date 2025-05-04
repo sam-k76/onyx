@@ -1,0 +1,145 @@
+/* General Body Styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4; /* Lighter white background */
+  color: #0d0d0d; /* Matte black text color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #0d0d0d; /* Matte black */
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('your-image.jpg'); /* Add your chosen image here */
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #E7CD78; /* Gold color */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Slight shadow for readability */
+}
+
+/* Exclusive & Luxurious Section */
+.exclusive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 50px;
+  background-color: #E7CD78; /* Gold background */
+}
+
+.exclusive-left, .exclusive-right {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0d0d0d; /* Matte black text */
+  width: 45%;
+}
+
+/* Slogan Section */
+.slogan {
+  background-color: #000;
+  color: #E7CD78; /* Gold text */
+  text-align: center;
+  padding: 30px;
+}
+
+.slogan p {
+  font-size: 1.5rem;
+}
+
+/* Apply Button Section */
+.apply {
+  padding: 50px 20px;
+}
+
+.apply-button {
+  background-color: #E7CD78; /* Gold button */
+  color: #0d0d0d; /* Matte black text */
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.apply-button:hover {
+  background-color: #bfa432; /* Darker gold on hover */
+}
+
+/* Form Section */
+.form-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, button {
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+}
+
+input {
+  background-color: #1a1a1a;
+  color: #E7CD78;
+}
+
+button {
+  background-color: #E7CD78;
+  color: #0d0d0d;
+}
+
+button:hover {
+  background-color: #bfa432;
+}
+
+/* Thank You Section */
+.thank-you {
+  text-align: center;
+  padding: 50px;
+}
+
+.back-to-home {
+  display: inline-block;
+  background-color: #E7CD78;
+  color: #0d0d0d;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.back-to-home:hover {
+  background-color: #bfa432;
+}
